@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <title>Pong Videogame</title>
+
+</head>
+<body>
+
+    <div class="sonidosC">
+        <audio class="audioE" controls style="width: 0px; height: 0px;">
+            <source src="/sounds/mixkit-fantasy-game-success-notification-270.wav" type="audio/mpeg">
+        </audio>
+        <audio class="audioB" controls style="width: 0px; height: 0px;" autoplay loop>
+            <source src="/sounds/mixkit-game-level-music-689.wav" type="audio/mpeg">
+        </audio>
+    </div>
+
+
+    <div id="ball"></div>
+    <div class="bar" id="bar1"></div>
+    <div class="bar" id="bar2"></div>
+    <div class="gameOver" id="line">
+        <h1 id="win">WIN</h1>
+        
+    </div>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="script.js"></script>
+  
+</body>
+</html>

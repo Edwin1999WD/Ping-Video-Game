@@ -1,0 +1,73 @@
+body, html {
+    height: 100%;
+    background-color: #000;
+    font-family: 'Fredoka One', cursive;
+}
+
+
+p {
+    font-size: 1rem;
+}
+
+#ball {
+    height: 20px;
+    width: 20px;
+    background: #000;
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    border: 2px solid #fff;
+    border-radius: 12px;
+}
+
+.bar {
+    width: 20px;
+    height: 100px;
+    background: #000;
+    border: 2px solid #fff;
+    border-radius: 11px;
+}
+
+#bar1 {
+    position: absolute;
+    top: 20px;
+    float: left;
+}
+
+#bar2 {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+
+#line {
+    width: 50%;
+    border-right: #fff dashed 5px;
+    height: 100%;
+}
+
+.gameOver {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#win.ocultar {
+    color: ghostwhite;
+    text-align: center;
+}
+
+.ocultar {
+    display: none;
+}
+
+.lose {
+    position: absolute;
+    left: 68%;
+    top: 45.5%;
+}
+
+.animate__animated.animate__bounce {
+    --animate-duration: 3s;
+    --animate-delay: 0.3s
+}
